@@ -1,0 +1,306 @@
+.wrapper{
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+     display: block;
+     content: "";
+     clear: both;
+   }
+
+.decorationNone{
+     text-decoration: none;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.menuButtons>ul{
+    margin: 0;
+}
+
+.button{
+    margin: 0 auto;
+    width: 180px;
+    border: 2px solid #fc5f45;
+    box-sizing: border-box;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 25px;
+    background-color: #fc5f45;
+}
+
+.headerButton>a{
+  font-size: 16px;
+  font-family: "Poppins";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menuButtons>ul li{
+    list-style-type: none;
+    margin-left: 22px;
+}
+
+.menuButtons>ul li a{ 
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #686868;
+  line-height: 1.929;
+  text-align: right;
+  font-weight: 500;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float: right;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+header{
+    background-color: #3f4049;
+    padding-top: 176px;
+    padding-bottom: 176px;
+}
+
+header h1{
+  font-size: 60px;
+  font-family: "Poppins";
+  color: #ffffff;
+  line-height: 1.417;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.headerContainer{
+    margin-top: 83px;
+}
+
+.headerContainer>.containerBlock{
+    width: 33.33%;
+}
+
+.headerText{
+  font-size: 18px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  line-height: 4.444;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.headerText1{
+    color: #38c695;
+}
+
+.headerText2{
+    color: #b27cf5;
+}
+
+.headerText3{
+    color: #d69f5a;
+}
+
+.about{
+    background-color: #ffffff;
+    padding-top: 151px;
+    padding-bottom: 151px;
+}
+
+.leftGray{
+    width: 48%;
+    float: left;
+    background-image: url(../img/leftGray.png);
+    height: 700px;
+}
+
+.aboutUs{
+    background-color: #ffffff;
+    background-image: url(../img/01.png);
+    background-repeat: no-repeat;
+    width: 58%;
+    padding-left: 66px;
+    padding-top: 27px;
+    position: absolute;
+    left: 40%;
+    margin-top: 75px;
+}
+
+.aboutText{
+  font-size: 15px;
+  font-family: "Poppins";
+  color: #616161;
+  line-height: 1.8;
+}
+
+.borderColor1{
+    border: 2px solid #fc5f45;
+    width: 25%;
+}
+
+.borderColor2{
+    border: 2px solid #38c695;
+    width: 25%;
+}
+
+.borderColor3{
+    border: 2px solid #b27cf5;
+    width: 25%;
+}
+
+.borderColor4{
+    border: 2px solid #feb960;
+    width: 25%;
+}
+
+.lastMargin{
+    margin-bottom: 100px;
+}
+
+.aboutMargin{
+    margin-bottom: 42px;
+}
+
+h2{
+  font-size: 50px;
+  font-family: 'Libre Baskerville'
+  color: #313131;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+   .menuButtons>ul{
+        width: 69%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wrapper{
+        width: 992px;   
+    }
+
+   .menuButtons>ul{
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper{
+        width: 768px;   
+    }
+
+   .menuButtons>ul{
+        width: 25%;
+    }
+
+    .leftGray{
+        background-image: none;
+    }
+
+    .aboutUs{
+        width: 100%;
+        background-image: none;
+        position: absolute;
+        left: 0%;
+    } 
+
+    .about{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .aboutUs{
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .wrapper{
+        width: 320px;   
+    }
+
+   .menuButtons>ul{
+        width: 45%;
+    }
+
+    header h1{
+        font-size: 16px;
+    }
+
+    header{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .button{
+        width: 100px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: 10px;
+    }
+
+    .headerButton>a{
+          font-size: 12px;
+          font-family: "Poppins";
+    }
+
+    .headerText{
+            font-size: 11px;
+            line-height: 20px;
+            margin-top: 15px;
+    }
+
+    .headerContainer{
+        margin-top: 30px;
+    }
+
+    header h1{
+      margin-bottom: 20px;
+    }
+
+    .aboutUs{
+        width: 100%;
+        background-image: none;
+        position: absolute;
+        left: 0%;
+    } 
+
+    .aboutText{
+          font-size: 11px;
+    } 
+
+    h2{
+       font-size: 30px; 
+    }
+
+    .leftGray{
+        background-image: none;
+    }
+
+    .about{
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .aboutUs{
+        margin-top: 0px;
+    }
+}
