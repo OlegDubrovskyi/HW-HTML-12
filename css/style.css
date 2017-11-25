@@ -1,5 +1,5 @@
 .wrapper{
-    width: 1140px;
+    width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -134,13 +134,17 @@ header h1{
 .aboutUs{
     background-color: #ffffff;
     background-image: url(../img/01.png);
+    background-position-x: 10px;
+    background-position-y: 10px;  
     background-repeat: no-repeat;
     width: 36%;
     padding-left: 66px;
+    padding-right: 41px;
     padding-top: 27px;
     position: absolute;
-    left: 40%;
+    left: 46%;
     margin-top: 75px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .aboutText{
@@ -186,6 +190,38 @@ h2{
   line-height: 1.6;
 }
 
+
+.focus{
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background-color: #f7f7f7;
+    background-image: url(../img/02.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-y: 10px;
+}
+
+.focusTitle{
+  font-size: 18px;
+  font-family: "Poppins";
+  color: #616161;
+  line-height: 4.444;
+  text-align: center;
+  margin-bottom: 83px;
+}
+
+.focus .wrapper h2{
+  margin-bottom: 0px;
+}
+
+.focusBlock{
+  background-color: #ffffff;
+  width: 23%;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+
 @media (min-width: 1200px) and (max-width: 1600px) {
    .menuButtons>ul{
         width: 69%;
@@ -213,6 +249,7 @@ h2{
 
     .leftGray{
         background-image: none;
+        height: 0px;
     }
 
     .aboutUs{
@@ -294,6 +331,7 @@ h2{
 
     .leftGray{
         background-image: none;
+        height: 0px;
     }
 
     .about{
