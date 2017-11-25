@@ -135,7 +135,7 @@ header h1{
     background-color: #ffffff;
     background-image: url(../img/01.png);
     background-repeat: no-repeat;
-    width: 58%;
+    width: 36%;
     padding-left: 66px;
     padding-top: 27px;
     position: absolute;
@@ -277,10 +277,11 @@ h2{
     }
 
     .aboutUs{
-        width: 100%;
+        width: 90%;
         background-image: none;
         position: absolute;
         left: 0%;
+        margin-top: 0px;
     } 
 
     .aboutText{
@@ -298,10 +299,6 @@ h2{
     .about{
         padding-top: 10px;
         padding-bottom: 0px;
-    }
-
-    .aboutUs{
-        margin-top: 0px;
     }
 
     .menuButtons ul{
