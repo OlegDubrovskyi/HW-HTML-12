@@ -303,4 +303,18 @@ h2{
     .aboutUs{
         margin-top: 0px;
     }
+
+    .menuButtons ul{
+      clear: both;
+      float: initial;
+    }
+
+    .menuButtons ul li a{
+      text-align: center;
+    }
+
+    .logo{
+      clear: both;
+      float: initial;
+    }
 }
